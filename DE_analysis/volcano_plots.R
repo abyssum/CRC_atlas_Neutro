@@ -1,6 +1,6 @@
 library(EnhancedVolcano)
 
-data_dir <- "/home/fotakis/myScratch/CRC_atlas_Neutro_back/DE_analysis/tables/"
+data_dir <- "~/myScratch/CRC_atlas_Neutro/DE_analysis/tables/"
 
 sample_res <- "MUI-tumor_vs_blood-DESeq2_result.tsv"
 
