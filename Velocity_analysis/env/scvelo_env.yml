@@ -37,6 +37,7 @@ dependencies:
   - umap-learn
   - yaml
   - pip:
+      - lightning==2.0.1
       - altair
       - louvain
       - attrs
