@@ -27,3 +27,19 @@ EnhancedVolcano(res,
                 drawConnectors = TRUE,
                 widthConnectors = 0.75)
 
+
+# KEGG pathway
+library(clusterProfiler)
+library(org.Mm.eg.db)
+
+geneList <- c(test.in$maResultList$`ec_Tip cells`$Sum$Rank)
+genes <- c(test.in$maResultList$`ec_Tip cells`$Sum$Feature)
+geneListNames <- mapIds(org.Hs.eg.db, genes, 'ENTREZID', 'SYMBOL')
+names(geneList) <- geneListNames
+geneList <- sort(geneList, decreasing = TRUE)
+
+geneList <- na.omit(geneList)
+
+kegg.res <- gse
+
+
