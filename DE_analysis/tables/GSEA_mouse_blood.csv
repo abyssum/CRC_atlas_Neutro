@@ -1,0 +1,5 @@
+"","ID","Description","setSize","enrichmentScore","NES","pvalue","p.adjust","qvalue","rank","leading_edge","core_enrichment"
+"mmu05171","mmu05171","Coronavirus disease - COVID-19",75,0.659221349976885,1.85660731808746,2.63440017229981e-05,0.00550589636010661,0.00550589636010661,127,"tags=20%, list=6%, signal=19%","Tlr7/Rps8/F13a1/Rpl5/Rps17/Rpl14/Rpl3/Rpl35/Rpl32/Rps28/Ikbke/Cybb/Rps4x/Rps5/Rpl22"
+"mmu04145","mmu04145","Phagosome",33,0.705470250154432,1.7734842801863,0.00102063517445769,0.0711042504872189,0.0711042504872189,199,"tags=27%, list=9%, signal=25%","Ctss/Fcgr2b/Scarb1/H2-Q6/Cybb/H2-Q7/Itgb1/Cd14/Rab7b"
+"mmu03010","mmu03010","Ribosome",54,0.654469658802141,1.76702831631908,0.000786606923418701,0.0711042504872189,0.0711042504872189,227,"tags=30%, list=11%, signal=27%","Rps8/Rpl5/Rps17/Rpl14/Rpl3/Rpl35/Rpl32/Rps28/Rps4x/Rps5/Rpl22/Mrps14/Rpl6/Rpl19/Mrps17/Rps15"
+"mmu05162","mmu05162","Measles",35,0.658985485820152,1.66389021935015,0.0046057687820342,0.240651418861287,0.240651418861287,75,"tags=14%, list=4%, signal=14%","Tlr7/Il2rg/Fcgr2b/Rack1/Ikbke"
